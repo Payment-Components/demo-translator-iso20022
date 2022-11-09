@@ -18,12 +18,12 @@ import java.io.UnsupportedEncodingException;
 public class TranslateMtToMx {
 
     public static void main(String... args) {
-        translateMt202ToPacs009_Auto();
-        translateMt202ToPacs009_ExplicitText();
-        translateMt202ToPacs009_ExplicitObject();
+        translateMt300ToFxtr014_Auto();
+        translateMt300ToFxtr014_ExplicitText();
+        translateMt300ToFxtr014_ExplicitObject();
     }
 
-    public static void translateMt202ToPacs009_Auto() {
+    public static void translateMt300ToFxtr014_Auto() {
         String mxMessage = null;
         // You have the option to provide the MT message in text format and get back the ISO20022 message in text format.
         // Translator auto detects the translation mapping.
@@ -53,7 +53,7 @@ public class TranslateMtToMx {
         }
     }
 
-    public static void translateMt202ToPacs009_ExplicitText() {
+    public static void translateMt300ToFxtr014_ExplicitText() {
         String mxMessage = null;
         try {
             // If you do not want to use the auto-translation functionality, you have the option to provide the MT message
@@ -84,7 +84,7 @@ public class TranslateMtToMx {
         }
     }
 
-    public static void translateMt202ToPacs009_ExplicitObject() {
+    public static void translateMt300ToFxtr014_ExplicitObject() {
         ForeignExchangeTradeInstruction04 mxMessage = null;
         // If you do not want to use the auto-translation functionality, you have the option to provide the MT message
         // in Object format and get back the ISO20022 message in Object format. In this case you need to know the exact translation mapping.

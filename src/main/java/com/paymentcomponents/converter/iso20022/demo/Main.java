@@ -3,13 +3,13 @@ package com.paymentcomponents.converter.iso20022.demo;
 public class Main {
 
     public static void main(String[] args) {
-        TranslateMtToMx.translateMt202ToPacs009_Auto();
-        TranslateMtToMx.translateMt202ToPacs009_ExplicitText();
-        TranslateMtToMx.translateMt202ToPacs009_ExplicitObject();
+        TranslateMtToMx.translateMt300ToFxtr014_Auto();
+        TranslateMtToMx.translateMt300ToFxtr014_ExplicitText();
+        TranslateMtToMx.translateMt300ToFxtr014_ExplicitObject();
 
-        TranslateMxToMt.translatePacs009toMt202_Auto();
-        TranslateMxToMt.translatePacs009toMt202_ExplicitText();
-        TranslateMxToMt.translatePacs009toMt202_ExplicitObject();
+        TranslateMxToMt.translateFxtr014ToMt300_Auto();
+        TranslateMxToMt.translateFxtr014ToMt300_ExplicitText();
+        TranslateMxToMt.translateFxtr014ToMt300_ExplicitObject();
     }
 
 }

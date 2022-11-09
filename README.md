@@ -82,17 +82,17 @@ implementation group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '2.3.
 
 ## Supported MT > MX Translations
 
-| MT message | MX message      | Translator Class | Multiple MTX support |
-|------------|-----------------|------------------|:--------------------:|
-| MT300      | fxtr.014.001.04 | Mt103ToPacs008   |       &cross;        |
+| MT message | MX message      | Translator Class    | Multiple MTX support |
+|------------|-----------------|---------------------|:--------------------:|
+| MT300      | fxtr.014.001.04 | Mt300ToFxtr01400104 |       &cross;        |
 
 _* Multiple MX are splitted in text by an empty line_
 
 ## Supported MX > MT Translations
 
-| MT message      | MX message     | Translator Class  | Multiple MT support |
-|-----------------|----------------|-------------------|:-------------------:|
-| fxtr.014.001.04 | MT940          | Camt053ToMt940    |       &cross;       |
+| MT message      | MX message     | Translator Class    | Multiple MT support |
+|-----------------|----------------|---------------------|:-------------------:|
+| fxtr.014.001.04 | MT940          | Fxtr01400104ToMt300 |       &cross;       |
 
 ## Instructions
 

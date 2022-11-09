@@ -16,12 +16,12 @@ import gr.datamation.mx.message.fxtr.ForeignExchangeTradeInstruction04;
 public class TranslateMxToMt {
 
     public static void main(String... args) {
-        translatePacs009toMt202_Auto();
-        translatePacs009toMt202_ExplicitText();
-        translatePacs009toMt202_ExplicitObject();
+        translateFxtr014ToMt300_Auto();
+        translateFxtr014ToMt300_ExplicitText();
+        translateFxtr014ToMt300_ExplicitObject();
     }
 
-    public static void translatePacs009toMt202_Auto() {
+    public static void translateFxtr014ToMt300_Auto() {
         // You have the option to provide the ISO20022 message in text format and get back the MT message in text format.
         // Translator auto detects the translation mapping.
         // In order to handle MT and ISO20022 messages, advice README.md
@@ -50,7 +50,7 @@ public class TranslateMxToMt {
         }
     }
 
-    public static void translatePacs009toMt202_ExplicitText() {
+    public static void translateFxtr014ToMt300_ExplicitText() {
         // If you do not want to use the auto-translation functionality, you have the option to provide the ISO20022 message
         // in text format and get back the MT message in text format. In this case you need to know the exact translation mapping.
         // In order to handle MT and ISO20022 messages, advice README.md
@@ -80,7 +80,7 @@ public class TranslateMxToMt {
         }
     }
 
-    public static void translatePacs009toMt202_ExplicitObject() {
+    public static void translateFxtr014ToMt300_ExplicitObject() {
         // If you do not want to use the auto-translation functionality, you have the option to provide the ISO20022 message
         // in Object format and get back the MT message in Object format. In this case you need to know the exact translation mapping.
         // In order to handle MT and ISO20022 messages, advice README.md
